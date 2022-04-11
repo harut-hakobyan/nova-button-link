@@ -1,0 +1,10 @@
+.card {
+  .inline {
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    div {
+      width: 100%;
+    }
+  }
+}
