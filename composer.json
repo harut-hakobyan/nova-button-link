@@ -1,6 +1,6 @@
 {
-    "name": "customfield/button-link",
-    "description": "A Laravel Nova field.",
+    "name": "specialfield/button-link",
+    "description": "A Laravel Nova button-link field.",
     "keywords": [
         "laravel",
         "nova"
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Customfield\\ButtonLink\\": "src/"
+            "Specialfield\\ButtonLink\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Customfield\\ButtonLink\\FieldServiceProvider"
+                "Specialfield\\ButtonLink\\FieldServiceProvider"
             ]
         }
     },
