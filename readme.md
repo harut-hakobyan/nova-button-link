@@ -46,7 +46,39 @@ You can set your own classes or bootstrap classes on button
 ```php
 Button::make('Link')->buttonClasses('text-center'),
 ```
----
+You can set your own classes or bootstrap classes on field
+```php
+Button::make('Link')->fieldClasses('text-center'),
+```
+
+You can set your own classes or bootstrap classes on field
+```php
+Button::make('Link')->fieldClasses('text-center'),
+```
+If you have many buttons, you can make them horizontal and vertical
+```php
+$fields = array();
+$fields[] = ButtonLink::make('field_1')
+        ->label("Manage")
+        ->link('field_1_url')
+        ->inline(true);
+        
+$fields[] = ButtonLink::make('field_2')
+        ->label("Manage")
+        ->link('field_2_url')
+        ->inline(true);
+        
+    
+public function fields(Request $request)
+{
+    return [
+        new Panel('Services', fields),
+    ];
+}
+
+```
+// $fields = array() Its a global variable.
+
 ---
 
 # Author
