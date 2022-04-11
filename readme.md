@@ -29,17 +29,11 @@ public function fields(Request $request)
 
 ---
 
-### Backend events
-
-By default, clicking the button will trigger a backend event via ajax.
-
 Adding a custom key
 
 ```php
 Button::make('Name', 'attribute')
 ```
-
-You register listeners in your EventServiceProvider
 
 ### Links
 ```php
