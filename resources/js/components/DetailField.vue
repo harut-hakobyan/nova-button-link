@@ -1,6 +1,5 @@
 <template>
   <div :class="[field.inline ? 'inline' : '']">
-    <template slot="field">
       <a
           :href="[field.path]"
           :id="field.name"
@@ -10,7 +9,6 @@
           v-model="value"
       >{{ (field.label) }}
       </a>
-    </template>
   </div>
 </template>
 
