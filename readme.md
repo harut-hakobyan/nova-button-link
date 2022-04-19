@@ -6,13 +6,13 @@ Package for adding Linked button in Nova ( Index, Detail, View, Edit ).
 ### Installation
 
 ```bash
-composer require customfield/button-link
+composer require specialfield/button-link
 ```
 
 ### Usage
 
 ```php
-use Customfield\ButtonLink\ButtonLink;
+use Specialfield\ButtonLink\ButtonLink;
 ```
 ```php
 public function fields(Request $request)
