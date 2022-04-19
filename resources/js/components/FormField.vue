@@ -1,7 +1,6 @@
 <template>
-  <default-field
-      :class="[field.inline ? 'inline' : '']"
-      :field="field" :errors="errors" :show-help-text="showHelpText">
+  <div
+      :class="[field.inline ? 'inline' : '']">
     <template slot="field">
       <a
           :href="[field.path]"
@@ -13,7 +12,7 @@
       >{{ (field.label) }}
       </a>
     </template>
-  </default-field>
+  </div>
 </template>
 
 <script>
