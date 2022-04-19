@@ -1,6 +1,5 @@
 <template>
-  <div
-      :class="[field.inline ? 'inline' : '']">
+  <div :class="[field.inline ? 'inline' : '']">
     <template slot="field">
       <a
           :href="[field.path]"
